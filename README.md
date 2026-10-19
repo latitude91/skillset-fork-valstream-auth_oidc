@@ -3,7 +3,7 @@ The changes are as follows:
 
 + New file: binding_username_claim.php
 
-+ New lines: lib.php 495-500:
++ New lines: lib.php around lines 495-500:
 >           'roles' => get_string('settings_fieldmap_field_roles', 'auth_oidc'),
 >           'isManager' => get_string('settings_fieldmap_field_isManager', 'auth_oidc'),
 >           'isSLT' => get_string('settings_fieldmap_field_isSLT', 'auth_oidc'),
