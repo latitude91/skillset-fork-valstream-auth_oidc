@@ -545,6 +545,11 @@ function auth_oidc_get_remote_fields() {
             'teams' => get_string('settings_fieldmap_field_teams', 'auth_oidc'),
             'groups' => get_string('settings_fieldmap_field_groups', 'auth_oidc'),
             'roles' => get_string('settings_fieldmap_field_roles', 'auth_oidc'),
+            'isManager' => get_string('settings_fieldmap_field_isManager', 'auth_oidc'),
+            'isSLT' => get_string('settings_fieldmap_field_isSLT', 'auth_oidc'),
+            'managersEmail' => get_string('settings_fieldmap_field_managersEmail', 'auth_oidc'),
+            'Organisation' => get_string('settings_fieldmap_field_Organisation', 'auth_oidc'),
+            'internalDepartment' => get_string('settings_fieldmap_field_internalDepartment', 'auth_oidc'),
         ];
 
         $order = 0;
