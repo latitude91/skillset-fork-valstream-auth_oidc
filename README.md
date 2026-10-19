@@ -1,3 +1,16 @@
+# This version of auth_oidc is for Valstream
+The changes are as follows:
+
++ New file: binding_username_claim.php
+
++ New lines: lib.php 495-500:
+>           'roles' => get_string('settings_fieldmap_field_roles', 'auth_oidc'),
+>           'isManager' => get_string('settings_fieldmap_field_isManager', 'auth_oidc'),
+>           'isSLT' => get_string('settings_fieldmap_field_isSLT', 'auth_oidc'),
+>           'managersEmail' => get_string('settings_fieldmap_field_managersEmail', 'auth_oidc'),
+>           'Organisation' => get_string('settings_fieldmap_field_Organisation', 'auth_oidc'),
+>           'internalDepartment' => get_string('settings_fieldmap_field_internalDepartment', 'auth_oidc'),
+
 # Moodle Plugins for Microsoft Services
 *including* **Microsoft 365** *and other Microsoft services*
 
